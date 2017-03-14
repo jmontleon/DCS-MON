@@ -3,7 +3,7 @@ DCS-MON
 
 Description
 -----------
-As there is no dedicated server for DCS and it is quite unstable at times it can be tedious to keep a server up and running at all times. DCS-MON is an attempt to help workaround the shortcomings. 
+As there is no dedicated server for DCS and it is quite unstable at times it can be tedious to keep a server up and running at all times. DCS-MON is an attempt to help work around the shortcomings. 
 
 How It Works
 ------------
@@ -15,10 +15,10 @@ Instructions
 2. Set a password for the user
  * There's no reason you can't use this script with your account, but your're probably an admin...
 3. Install [AutoHotKey](https://autohotkey.com/)
-4. Place dcs.ahk and place it where it makes sense to you. 
+4. Place dcs.ahk where it makes sense to you. 
 4. Edit the dcs.vbs 'Set variables' section:
-  * Make sure the script path and name are correct.
-  * Update the script with the user and password from above.
+  * Make sure the ahk script path and name are correct for your preference.
+  * Update the script with the user and password from steps 1 and 2.
   * Choose which versions of the game you want to monitor.
   * Make sure the paths for your installations match.
   * Specify the port any monitored versions will be listening on.
@@ -27,6 +27,6 @@ Instructions
 5. Place dcs.vbs in your startup folder. 
   * The per user start folder is C:\Users\$USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 6. Either reboot or double click the script to start the monitor process. It pauses for a minute before it starts doing it's thing.
-7. If you need to stop for it kill the "Microsoft ® Windows Based Script Host" process in the Task Manager. This could probably be improved...
+7. If you need to stop it kill the "Microsoft ® Windows Based Script Host" process in the Task Manager. This could probably be improved...
 
 
