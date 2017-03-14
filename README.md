@@ -3,7 +3,7 @@ DCS-MON
 
 Description
 -----------
-As there is no dedicated server for DCS and it is quite unstable at times it can be tedious to keep a server up and running at all times. DCS-MON is an attempt to 
+As there is no dedicated server for DCS and it is quite unstable at times it can be tedious to keep a server up and running at all times. DCS-MON is an attempt to help workaround the shortcomings. 
 
 How It Works
 ------------
