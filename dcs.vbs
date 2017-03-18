@@ -43,7 +43,7 @@ beta_window_y = "770"
 
 '*************************************************************************************
 '* Button locations are based on the top corner of the game window.                  *
-'* If you run the game in 1280x800 windows hopefully you won't need to touch these.  *
+'* If you run the game in 1280x768 windows hopefully you won't need to touch these.  *
 '* And if you run all at the same resolution they should all match.                  *
 '*************************************************************************************
 release_multiplayer_button_x = "1085"

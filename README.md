@@ -7,7 +7,7 @@ As there is no dedicated server for DCS and it is quite unstable at times it can
 
 How It Works
 ------------
-DCS-MON runs in the background checking that the DCS process is running and listening on the specified port. If it is running but not listening it will be terminated. If it is not running it will be started via the AutoHotkey script as the specified user. The AutoHotKey script will also automatically move the window to the specified coordinates and press the appropriate buttons to get back to a running server. Button presses are done via Window coordinate so if you run the server windows at a resolution other than 1280x800 they will likely need some adjustment.
+DCS-MON runs in the background checking that the DCS process is running and listening on the specified port. If it is running but not listening it will be terminated. If it is not running it will be started via the AutoHotkey script as the specified user. The AutoHotKey script will also automatically move the window to the specified coordinates and press the appropriate buttons to get back to a running server. Button presses are done via Window coordinate so if you run the server windows at a resolution other than 1280x768 they will likely need some adjustment.
 
 Instructions
 ------------
@@ -23,7 +23,7 @@ Instructions
   * Make sure the paths for your installations match.
   * Specify the port any monitored versions will be listening on.
   * Specify the coordinates you want the top left corner of each windows to be moved to.
-  * Either set the game windows to run at 1280x800 or modify the button locations.
+  * Either set the game windows to run at 1280x768 or modify the button locations.
 5. Place dcs.vbs in your startup folder. 
   * The per user start folder is C:\Users\$USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 6. Either reboot or double click the script to start the monitor process. It pauses for a minute before it starts doing it's thing.
