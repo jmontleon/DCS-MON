@@ -23,12 +23,19 @@ Instructions
   * Make sure the paths for your installations match.
   * Specify the port any monitored versions will be listening on.
   * Specify the coordinates you want the top left corner of each windows to be moved to.
-  * Either set the game windows to run at 1280x768 or modify the button locations.
+  * Either set the game windows to run at 1280x800 or modify the button locations.
 5. Place dcs.vbs in your startup folder. 
   * The per user start folder is C:\Users\$USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 6. Either reboot or double click the script to start the monitor process. It pauses for a minute before it starts doing it's thing.
 7. If you need to stop it kill the "Microsoft ® Windows Based Script Host" process in the Task Manager. This could probably be improved...
 8. The game will hang when it crashes to the  Windows Error Reporting window waiting for you to press 'OK' unless you make some registry edits. I've seen two suggestions and together they seem to work, but I do not know if either works on its own:
+
+The order of the clicks run will be:
+* Login Button
+* Multiplayer Button
+* New Server Button
+* Select Mission
+* Start Button
 
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
