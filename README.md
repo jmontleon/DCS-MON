@@ -30,13 +30,6 @@ Instructions
 7. If you need to stop it kill the "Microsoft ® Windows Based Script Host" process in the Task Manager. This could probably be improved...
 8. The game will hang when it crashes to the  Windows Error Reporting window waiting for you to press 'OK' unless you make some registry edits. I've seen two suggestions and together they seem to work, but I do not know if either works on its own:
 
-The order of the clicks run will be:
-* Login Button
-* Multiplayer Button
-* New Server Button
-* Select Mission
-* Start Button
-
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
 "ForceQueue"=dword:00000001
@@ -51,3 +44,10 @@ and/or:
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
 "DontShowUI"=dword:00000001
 ```
+
+The order of the clicks run will be:
+* Login Button
+* Multiplayer Button
+* New Server Button
+* Select Mission
+* Start Button
