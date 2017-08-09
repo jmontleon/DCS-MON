@@ -36,14 +36,10 @@ beta_port = "10310"
 'Coordinates you want the top corner of each window at relative to your screen resolution.
 release_window_x = "1271"
 release_window_y = "-7"
-alpha_window_x = "-7"
-alpha_window_y = "610"
-'release_window_x = "1271"
-'release_window_y = "0"
 'alpha_window_x = "-7"
-'alpha_window_y = "770"
+'alpha_window_y = "610"
 'beta_window_x = "1271"
-'beta_window_y = "770"
+'beta_window_y = "610"
 
 '*************************************************************************************
 '* Button locations are based on the top corner of the game window.                  *
